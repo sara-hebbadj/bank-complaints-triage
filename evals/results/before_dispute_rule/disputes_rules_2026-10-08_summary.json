@@ -1,0 +1,52 @@
+{
+  "run_id": "disputes_rules_2026-10-08",
+  "date": "2026-10-08",
+  "task": "disputes",
+  "system": "rules",
+  "dry_run": false,
+  "models": "none (no model)",
+  "n": 150,
+  "errors": 0,
+  "cost_usd": 0.0,
+  "model_calls": 0,
+  "stopped_by_budget": false,
+  "templated": {
+    "n": 120,
+    "card_last4_exact": "100.0% (120/120)",
+    "merchant_exact": "100.0% (120/120)",
+    "amount_exact": "100.0% (120/120)",
+    "transaction_date_exact": "100.0% (120/120)",
+    "dispute_reason_exact": "100.0% (120/120)",
+    "all_fields_exact": "100.0% (120/120)",
+    "transaction_match": "100.0% (120/120)",
+    "dispute_detected": "100.0% (120/120)",
+    "team_correct": "24.2% (29/120)",
+    "by_language_match": {
+      "ar": "100.0% (40/40)",
+      "en": "100.0% (40/40)",
+      "fr": "100.0% (40/40)"
+    }
+  },
+  "hard": {
+    "n": 30,
+    "card_last4_exact": "86.7% (26/30)",
+    "merchant_exact": "26.7% (8/30)",
+    "amount_exact": "3.3% (1/30)",
+    "transaction_date_exact": "63.3% (19/30)",
+    "dispute_reason_exact": "13.3% (4/30)",
+    "all_fields_exact": "0.0% (0/30)",
+    "transaction_match": "10.0% (3/30)",
+    "dispute_detected": "0.0% (0/30)",
+    "team_correct": "20.0% (6/30)",
+    "by_language_match": {
+      "ar": "0.0% (0/10)",
+      "en": "20.0% (2/10)",
+      "fr": "10.0% (1/10)"
+    }
+  },
+  "avg_cost_usd_per_message": 0.0,
+  "latency_ms_p50_p95": [
+    4.0,
+    6.0
+  ]
+}

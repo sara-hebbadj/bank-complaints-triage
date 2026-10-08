@@ -1,0 +1,53 @@
+{
+  "run_id": "drafts_llm_cheap_2026-10-08",
+  "date": "2026-10-08",
+  "task": "drafts",
+  "system": "llm",
+  "dry_run": false,
+  "models": {
+    "cheap": "openai/gpt-6-luna",
+    "main": "anthropic/claude-sonnet-5.5",
+    "judge": "google/gemini-3.8-flash",
+    "embed": "baai/bge-m3"
+  },
+  "n": 162,
+  "errors": 0,
+  "cost_usd": 0.14096,
+  "model_calls": 531,
+  "stopped_by_budget": false,
+  "all": {
+    "n": 162,
+    "reason_code_accuracy": "91.4% (148/162)",
+    "drafts_blocked_by_code": 2,
+    "judge_faithful": "93.8% (152/162)",
+    "judge_asks_for_secrets": 0
+  },
+  "ar": {
+    "n": 54,
+    "reason_code_accuracy": "92.6% (50/54)",
+    "drafts_blocked_by_code": 1,
+    "judge_faithful": "96.3% (52/54)",
+    "judge_asks_for_secrets": 0
+  },
+  "en": {
+    "n": 54,
+    "reason_code_accuracy": "90.7% (49/54)",
+    "drafts_blocked_by_code": 1,
+    "judge_faithful": "92.6% (50/54)",
+    "judge_asks_for_secrets": 0
+  },
+  "fr": {
+    "n": 54,
+    "reason_code_accuracy": "90.7% (49/54)",
+    "drafts_blocked_by_code": 0,
+    "judge_faithful": "92.6% (50/54)",
+    "judge_asks_for_secrets": 0
+  },
+  "kappa_judge_vs_gold_code": 0.461,
+  "agreement_judge_vs_gold_code": "92.6% (150/162)",
+  "avg_cost_usd_per_message": 0.0008701,
+  "latency_ms_p50_p95": [
+    8470.0,
+    18265.1
+  ]
+}

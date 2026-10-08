@@ -1,0 +1,35 @@
+{
+  "run_id": "disputes_llm_cheap_fake_first6_2026-10-08",
+  "date": "2026-10-08",
+  "task": "disputes",
+  "system": "llm",
+  "dry_run": true,
+  "models": "fake",
+  "n": 6,
+  "errors": 0,
+  "cost_usd": 0.0,
+  "model_calls": 12,
+  "stopped_by_budget": false,
+  "templated": {
+    "n": 6,
+    "card_last4_exact": "16.7% (1/6)",
+    "merchant_exact": "0.0% (0/6)",
+    "amount_exact": "0.0% (0/6)",
+    "transaction_date_exact": "0.0% (0/6)",
+    "dispute_reason_exact": "16.7% (1/6)",
+    "all_fields_exact": "0.0% (0/6)",
+    "transaction_match": "0.0% (0/6)",
+    "dispute_detected": "0.0% (0/6)",
+    "team_correct": "0.0% (0/6)",
+    "by_language_match": {
+      "ar": "0.0% (0/2)",
+      "en": "0.0% (0/2)",
+      "fr": "0.0% (0/2)"
+    }
+  },
+  "avg_cost_usd_per_message": 0.0,
+  "latency_ms_p50_p95": [
+    2.5,
+    5.8
+  ]
+}

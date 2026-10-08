@@ -1,0 +1,48 @@
+{
+  "run_id": "drafts_llm_cheap_fake_first6_2026-10-08",
+  "date": "2026-10-08",
+  "task": "drafts",
+  "system": "llm",
+  "dry_run": true,
+  "models": "fake",
+  "n": 6,
+  "errors": 0,
+  "cost_usd": 0.0,
+  "model_calls": 18,
+  "stopped_by_budget": false,
+  "all": {
+    "n": 6,
+    "reason_code_accuracy": "50.0% (3/6)",
+    "drafts_blocked_by_code": 0,
+    "judge_faithful": "100.0% (6/6)",
+    "judge_asks_for_secrets": 0
+  },
+  "ar": {
+    "n": 2,
+    "reason_code_accuracy": "50.0% (1/2)",
+    "drafts_blocked_by_code": 0,
+    "judge_faithful": "100.0% (2/2)",
+    "judge_asks_for_secrets": 0
+  },
+  "en": {
+    "n": 2,
+    "reason_code_accuracy": "50.0% (1/2)",
+    "drafts_blocked_by_code": 0,
+    "judge_faithful": "100.0% (2/2)",
+    "judge_asks_for_secrets": 0
+  },
+  "fr": {
+    "n": 2,
+    "reason_code_accuracy": "50.0% (1/2)",
+    "drafts_blocked_by_code": 0,
+    "judge_faithful": "100.0% (2/2)",
+    "judge_asks_for_secrets": 0
+  },
+  "kappa_judge_vs_gold_code": 0.0,
+  "agreement_judge_vs_gold_code": "50.0% (3/6)",
+  "avg_cost_usd_per_message": 0.0,
+  "latency_ms_p50_p95": [
+    1.0,
+    5.8
+  ]
+}

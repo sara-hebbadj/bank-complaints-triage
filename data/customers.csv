@@ -1,0 +1,41 @@
+customer_id,name,email,phone,language,cards
+C001,Ahmed Fontaine,ahmed.fontaine@example.com,+971 50 000 0001,en,2824
+C002,Fatima Bennett,fatima.bennett@example.com,+971 50 000 0002,fr,1409
+C003,Omar Haddad,omar.haddad@example.com,+971 50 000 0003,ar,5012|5506
+C004,Layla Al Hashimi,layla.alhashimi@example.com,+971 50 000 0004,en,4657
+C005,Yousef Zayed,yousef.zayed@example.com,+971 50 000 0005,fr,3286
+C006,Mariam Benali,mariam.benali@example.com,+971 50 000 0006,ar,2679|9935
+C007,Khalid Lefebvre,khalid.lefebvre@example.com,+971 50 000 0007,en,2424
+C008,Noura Moreau,noura.moreau@example.com,+971 50 000 0008,fr,7912
+C009,Hamdan Rahman,hamdan.rahman@example.com,+971 50 000 0009,ar,1488|1520
+C010,Aisha Clarke,aisha.clarke@example.com,+971 50 000 0010,en,2535
+C011,Rashid Farouk,rashid.farouk@example.com,+971 50 000 0011,fr,4582
+C012,Salma Mercier,salma.mercier@example.com,+971 50 000 0012,ar,4811|9279
+C013,Karim Saleh,karim.saleh@example.com,+971 50 000 0013,en,1434
+C014,Leila Laurent,leila.laurent@example.com,+971 50 000 0014,fr,4257
+C015,Hassan Okafor,hassan.okafor@example.com,+971 50 000 0015,ar,7873|9928
+C016,Sofia Dubois,sofia.dubois@example.com,+971 50 000 0016,en,4611
+C017,Lucas Ibrahim,lucas.ibrahim@example.com,+971 50 000 0017,fr,8359
+C018,Chloe Nair,chloe.nair@example.com,+971 50 000 0018,ar,1106|5557
+C019,Antoine Kapoor,antoine.kapoor@example.com,+971 50 000 0019,en,3615
+C020,Camille Al Mansoori,camille.almansoori@example.com,+971 50 000 0020,fr,7924
+C021,Julien Fontaine,julien.fontaine@example.com,+971 50 000 0021,ar,5552|6574
+C022,Ines Bennett,ines.bennett@example.com,+971 50 000 0022,en,3547
+C023,Thomas Haddad,thomas.haddad@example.com,+971 50 000 0023,fr,4527
+C024,Emma Al Hashimi,emma.alhashimi@example.com,+971 50 000 0024,ar,2674|6514
+C025,James Zayed,james.zayed@example.com,+971 50 000 0025,en,2519
+C026,Priya Benali,priya.benali@example.com,+971 50 000 0026,fr,7224
+C027,Ravi Lefebvre,ravi.lefebvre@example.com,+971 50 000 0027,ar,2584|6881
+C028,Anjali Moreau,anjali.moreau@example.com,+971 50 000 0028,en,6635
+C029,Daniel Rahman,daniel.rahman@example.com,+971 50 000 0029,fr,5333
+C030,Sarah Clarke,sarah.clarke@example.com,+971 50 000 0030,ar,1711|8527
+C031,Michael Farouk,michael.farouk@example.com,+971 50 000 0031,en,9785
+C032,Olivia Mercier,olivia.mercier@example.com,+971 50 000 0032,fr,3045
+C033,Ali Saleh,ali.saleh@example.com,+971 50 000 0033,ar,2291|7201
+C034,Huda Laurent,huda.laurent@example.com,+971 50 000 0034,en,5803
+C035,Tariq Okafor,tariq.okafor@example.com,+971 50 000 0035,fr,6925
+C036,Reem Dubois,reem.dubois@example.com,+971 50 000 0036,ar,2139|4150
+C037,Samir Ibrahim,samir.ibrahim@example.com,+971 50 000 0037,en,1750
+C038,Nadia Nair,nadia.nair@example.com,+971 50 000 0038,fr,4733
+C039,Yasmin Kapoor,yasmin.kapoor@example.com,+971 50 000 0039,ar,2307|5741
+C040,Faisal Al Mansoori,faisal.almansoori@example.com,+971 50 000 0040,en,4814

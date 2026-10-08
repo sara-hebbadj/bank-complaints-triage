@@ -1,0 +1,57 @@
+{
+  "run_id": "disputes_llm_cheap_2026-10-08",
+  "date": "2026-10-08",
+  "task": "disputes",
+  "system": "llm",
+  "dry_run": false,
+  "models": {
+    "cheap": "openai/gpt-6-luna",
+    "main": "anthropic/claude-sonnet-5.5",
+    "judge": "google/gemini-3.8-flash",
+    "embed": "baai/bge-m3"
+  },
+  "n": 150,
+  "errors": 0,
+  "cost_usd": 0.03605,
+  "model_calls": 300,
+  "stopped_by_budget": false,
+  "templated": {
+    "n": 120,
+    "card_last4_exact": "100.0% (120/120)",
+    "merchant_exact": "100.0% (120/120)",
+    "amount_exact": "100.0% (120/120)",
+    "transaction_date_exact": "100.0% (120/120)",
+    "dispute_reason_exact": "100.0% (120/120)",
+    "all_fields_exact": "100.0% (120/120)",
+    "transaction_match": "100.0% (120/120)",
+    "dispute_detected": "100.0% (120/120)",
+    "team_correct": "100.0% (120/120)",
+    "by_language_match": {
+      "ar": "100.0% (40/40)",
+      "en": "100.0% (40/40)",
+      "fr": "100.0% (40/40)"
+    }
+  },
+  "hard": {
+    "n": 30,
+    "card_last4_exact": "100.0% (30/30)",
+    "merchant_exact": "80.0% (24/30)",
+    "amount_exact": "100.0% (30/30)",
+    "transaction_date_exact": "100.0% (30/30)",
+    "dispute_reason_exact": "100.0% (30/30)",
+    "all_fields_exact": "80.0% (24/30)",
+    "transaction_match": "100.0% (30/30)",
+    "dispute_detected": "93.3% (28/30)",
+    "team_correct": "96.7% (29/30)",
+    "by_language_match": {
+      "ar": "100.0% (10/10)",
+      "en": "100.0% (10/10)",
+      "fr": "100.0% (10/10)"
+    }
+  },
+  "avg_cost_usd_per_message": 0.0002404,
+  "latency_ms_p50_p95": [
+    5786.5,
+    8217.1
+  ]
+}

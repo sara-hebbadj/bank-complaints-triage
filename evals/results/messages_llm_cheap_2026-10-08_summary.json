@@ -1,0 +1,133 @@
+{
+  "run_id": "messages_llm_cheap_2026-10-08",
+  "date": "2026-10-08",
+  "task": "messages",
+  "system": "llm",
+  "dry_run": false,
+  "models": {
+    "cheap": "openai/gpt-6-luna",
+    "main": "anthropic/claude-sonnet-5.5",
+    "judge": "google/gemini-3.8-flash",
+    "embed": "baai/bge-m3"
+  },
+  "n": 300,
+  "errors": 0,
+  "cost_usd": 0.04338,
+  "model_calls": 344,
+  "stopped_by_budget": false,
+  "all": {
+    "n": 300,
+    "routing_accuracy": "92.3% (277/300)",
+    "routing_value": 0.9233333333333333,
+    "complaint": {
+      "tp": 128,
+      "fp": 13,
+      "fn": 4,
+      "precision": "90.8% (128/141)",
+      "recall": "97.0% (128/132)",
+      "precision_value": 0.9078014184397163,
+      "recall_value": 0.9696969696969697
+    },
+    "dispute": {
+      "tp": 40,
+      "fp": 4,
+      "fn": 11,
+      "precision": "90.9% (40/44)",
+      "recall": "78.4% (40/51)",
+      "precision_value": 0.9090909090909091,
+      "recall_value": 0.7843137254901961
+    },
+    "fraud_recall": "100.0% (42/42)",
+    "vulnerable_recall": "100.0% (18/18)",
+    "sent_to_human_triage": 32
+  },
+  "ar": {
+    "n": 100,
+    "routing_accuracy": "93.0% (93/100)",
+    "routing_value": 0.93,
+    "complaint": {
+      "tp": 41,
+      "fp": 4,
+      "fn": 3,
+      "precision": "91.1% (41/45)",
+      "recall": "93.2% (41/44)",
+      "precision_value": 0.9111111111111111,
+      "recall_value": 0.9318181818181818
+    },
+    "dispute": {
+      "tp": 13,
+      "fp": 2,
+      "fn": 4,
+      "precision": "86.7% (13/15)",
+      "recall": "76.5% (13/17)",
+      "precision_value": 0.8666666666666667,
+      "recall_value": 0.7647058823529411
+    },
+    "fraud_recall": "100.0% (14/14)",
+    "vulnerable_recall": "100.0% (6/6)",
+    "sent_to_human_triage": 9
+  },
+  "en": {
+    "n": 100,
+    "routing_accuracy": "93.0% (93/100)",
+    "routing_value": 0.93,
+    "complaint": {
+      "tp": 43,
+      "fp": 4,
+      "fn": 1,
+      "precision": "91.5% (43/47)",
+      "recall": "97.7% (43/44)",
+      "precision_value": 0.9148936170212766,
+      "recall_value": 0.9772727272727273
+    },
+    "dispute": {
+      "tp": 14,
+      "fp": 0,
+      "fn": 3,
+      "precision": "100.0% (14/14)",
+      "recall": "82.4% (14/17)",
+      "precision_value": 1.0,
+      "recall_value": 0.8235294117647058
+    },
+    "fraud_recall": "100.0% (14/14)",
+    "vulnerable_recall": "100.0% (6/6)",
+    "sent_to_human_triage": 13
+  },
+  "fr": {
+    "n": 100,
+    "routing_accuracy": "91.0% (91/100)",
+    "routing_value": 0.91,
+    "complaint": {
+      "tp": 44,
+      "fp": 5,
+      "fn": 0,
+      "precision": "89.8% (44/49)",
+      "recall": "100.0% (44/44)",
+      "precision_value": 0.8979591836734694,
+      "recall_value": 1.0
+    },
+    "dispute": {
+      "tp": 13,
+      "fp": 2,
+      "fn": 4,
+      "precision": "86.7% (13/15)",
+      "recall": "76.5% (13/17)",
+      "precision_value": 0.8666666666666667,
+      "recall_value": 0.7647058823529411
+    },
+    "fraud_recall": "100.0% (14/14)",
+    "vulnerable_recall": "100.0% (6/6)",
+    "sent_to_human_triage": 10
+  },
+  "routing_gap_points": 2.0,
+  "by_variety": {
+    "msa": "91.2% (52/57)",
+    "gulf": "94.1% (32/34)",
+    "arabizi": "100.0% (9/9)"
+  },
+  "latency_ms_p50_p95": [
+    2653.0,
+    5853.0
+  ],
+  "avg_cost_usd_per_message": 0.0001446
+}

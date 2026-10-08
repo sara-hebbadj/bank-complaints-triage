@@ -1,0 +1,48 @@
+[project]
+name = "bank-complaints-triage"
+version = "0.1.0"
+description = "Arabic/English/French bank complaint and card-dispute triage for a fictional bank: classical ML vs LLM, reason codes, a complaint-deadline clock, human approval and an audit log."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Sara Hebbadj" }]
+requires-python = ">=3.11"
+dependencies = [
+    "langgraph>=1.0",
+    "openai>=1.40",
+    "python-dotenv>=1.0",
+    "scikit-learn>=1.5",
+    "numpy>=1.26",
+    "duckdb>=1.1",
+    "gradio>=5.0",
+    "matplotlib>=3.8",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "ruff>=0.6"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "."]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+extend-exclude = ["docs/demo"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+
+[tool.ruff.lint.per-file-ignores]
+# These files are mostly Arabic/English/French text (scenarios, templates, keyword lists, probes).
+"data/scenarios.py" = ["E501"]
+"data/make_data.py" = ["E501"]
+"src/bank_triage/guards.py" = ["E501"]
+"src/bank_triage/pipeline.py" = ["E501"]
+"app/app.py" = ["E501"]

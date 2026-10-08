@@ -1,0 +1,17 @@
+{
+  "run_id": "intent_llm_cheap_fake_first12_2026-10-08",
+  "date": "2026-10-08",
+  "task": "intent",
+  "system": "llm",
+  "dry_run": true,
+  "models": "fake",
+  "n": 12,
+  "errors": 0,
+  "cost_usd": 0.0,
+  "model_calls": 12,
+  "stopped_by_budget": false,
+  "macro_f1_subset_770": 0.0,
+  "accuracy_subset_770": "0.0% (0/12)",
+  "team_accuracy_subset_770": "0.0% (0/12)",
+  "predicted_other": 12
+}

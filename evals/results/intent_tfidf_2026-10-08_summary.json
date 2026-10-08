@@ -1,0 +1,19 @@
+{
+  "run_id": "intent_tfidf_2026-10-08",
+  "date": "2026-10-08",
+  "task": "intent",
+  "system": "tfidf",
+  "dry_run": false,
+  "models": "none (no model)",
+  "n": 3080,
+  "errors": 0,
+  "cost_usd": 0.0,
+  "model_calls": 0,
+  "stopped_by_budget": false,
+  "macro_f1_subset_770": 0.8927,
+  "accuracy_subset_770": "89.4% (688/770)",
+  "team_accuracy_subset_770": "96.4% (742/770)",
+  "predicted_other": 0,
+  "macro_f1_full_3080": 0.8942,
+  "accuracy_full_3080": "89.4% (2753/3080)"
+}

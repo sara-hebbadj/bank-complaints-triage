@@ -1,0 +1,40 @@
+{
+  "run_id": "disputes_llm_cheap_first6_2026-10-08",
+  "date": "2026-10-08",
+  "task": "disputes",
+  "system": "llm",
+  "dry_run": false,
+  "models": {
+    "cheap": "openai/gpt-6-luna",
+    "main": "anthropic/claude-sonnet-5.5",
+    "judge": "google/gemini-3.8-flash",
+    "embed": "baai/bge-m3"
+  },
+  "n": 6,
+  "errors": 0,
+  "cost_usd": 0.00145,
+  "model_calls": 12,
+  "stopped_by_budget": false,
+  "templated": {
+    "n": 6,
+    "card_last4_exact": "100.0% (6/6)",
+    "merchant_exact": "100.0% (6/6)",
+    "amount_exact": "100.0% (6/6)",
+    "transaction_date_exact": "100.0% (6/6)",
+    "dispute_reason_exact": "100.0% (6/6)",
+    "all_fields_exact": "100.0% (6/6)",
+    "transaction_match": "100.0% (6/6)",
+    "dispute_detected": "100.0% (6/6)",
+    "team_correct": "100.0% (6/6)",
+    "by_language_match": {
+      "ar": "100.0% (2/2)",
+      "en": "100.0% (2/2)",
+      "fr": "100.0% (2/2)"
+    }
+  },
+  "avg_cost_usd_per_message": 0.0002413,
+  "latency_ms_p50_p95": [
+    6112.0,
+    7326.2
+  ]
+}

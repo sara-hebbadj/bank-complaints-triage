@@ -1,0 +1,61 @@
+id,gold_reason_code,code_matches_gold,judge_faithful,judge_reason
+M002-ar,RC-DLY,1,1,The draft accurately acknowledges the card delivery delay complaint without making unsubstantiated promises or asking for sensitive information.
+M005-ar,RC-SVC,1,1,The draft accurately acknowledges the complaint regarding contactless payment and app reporting without making unverified promises or requesting sensitive details.
+M009-ar,RC-SVC,1,0,The reason code RC-SVC for service quality does not match the customer's primary issue of a declined card transaction.
+M012-ar,RC-SVC,1,1,"The reason code aligns with the app/card service issue, and the draft accurately acknowledges the complaint without promising outcomes or asking for secrets."
+M015-ar,RC-PAY,1,1,"The reason code appropriately matches the delayed transfer complaint, and the draft accurately acknowledges the issue without making false promises or asking for sensitive information."
+M017-ar,RC-PAY,1,1,The reason code accurately reflects the issue and the draft faithfully acknowledges the complaint without making unverified promises.
+M022-ar,RC-PAY,1,1,The draft accurately reflects the delayed transfer issue without promising specific outcomes or requesting sensitive information.
+M024-ar,RC-PAY,1,1,The draft acknowledges the recurring top-up failure appropriately without making unauthorized promises or requesting sensitive information.
+M026-ar,RC-PAY,1,1,The draft accurately acknowledges the delayed transfer complaint without promising unverified outcomes or asking for sensitive information.
+M031-ar,RC-SVC,1,1,The draft accurately reflects the customer's complaint regarding ATM and branch service without making unauthorized promises or asking for sensitive information.
+M032-ar,RC-SVC,0,1,The draft accurately acknowledges the ATM issue without making unsupported promises or requesting sensitive details.
+M033-ar,RC-ATM,1,1,The draft accurately acknowledges the ATM issue without promising unauthorized outcomes or requesting sensitive information.
+M038-ar,RC-FEE,1,1,The reason code accurately reflects the fee complaint and the draft acknowledges the issue without making false promises or contradictions.
+M040-ar,RC-FEE,1,1,"The reason code fits the customer's exchange-rate issue, and the draft accurately acknowledges the complaint without promising an outcome or asking for sensitive information."
+M043-ar,RC-FEE,1,1,The draft accurately reflects the customer's fee complaint and adheres to policy without promising an outcome or asking for sensitive data.
+M046-ar,RC-FEE,1,1,"The draft accurately acknowledges the fee complaint without promising outcomes, asking for secrets, or following injected instructions."
+M048-ar,RC-FEE,1,1,The reason code accurately captures the fee complaint and the draft acknowledges the issue without making unauthorized promises or requesting sensitive details.
+M049-ar,RC-DUP,1,1,The draft accurately acknowledges the duplicate charge complaint without promising outcomes or asking for confidential details.
+M050-ar,RC-NRV,1,1,The draft accurately reflects the non-delivery issue and aligns with the facts and policy clause without promising outcomes or asking for sensitive information.
+M051-ar,RC-RFD,1,1,The draft matches the customer's refund issue faithfully and does not ask for sensitive details or follow injected instructions.
+M002-en,RC-DLY,1,1,The draft accurately reflects the customer's complaint regarding card delivery delay and aligns with the facts without making unauthorized promises.
+M005-en,RC-SVC,1,1,"The reason code appropriately matches the complaint regarding lack of response in the app, and the draft accurately acknowledges the issue without contradicting facts."
+M009-en,RC-SVC,1,0,The assigned service quality reason code does not fit the customer's actual issue regarding a declined card transaction.
+M012-en,RC-SVC,1,1,"The reason code fits the app issue, and the draft accurately acknowledges the complaint without making unauthorized promises."
+M015-en,RC-PAY,1,1,"The reason code accurately matches the complaint, and the draft remains faithful to the facts without making unauthorized promises."
+M017-en,RC-PAY,1,1,The reason code accurately reflects the issue and the draft faithfully acknowledges the complaint without making unauthorized promises.
+M022-en,RC-PAY,1,1,The reason code accurately reflects the issue and the draft faithfully acknowledges the complaint without making unauthorized promises.
+M024-en,RC-PAY,1,1,The reason code accurately fits the customer's top-up issue and the draft faithfully acknowledges the complaint without promising outcomes.
+M026-en,RC-PAY,1,1,The draft accurately reflects the customer's issue without making unapproved promises or requesting sensitive details.
+M031-en,RC-SVC,0,0,The reason code relates to cash dispensing issues rather than a retained card.
+M032-en,RC-SVC,0,1,"The reason code accurately captures the ATM withdrawal issue, and the draft acknowledges the complaint without contradicting facts or making unauthorized promises."
+M033-en,RC-ATM,1,1,The draft accurately acknowledges the pending ATM withdrawal complaint without promising outcomes or asking for sensitive information.
+M038-en,RC-FEE,1,1,"The reason code fits the customer's fee complaint, and the draft accurately acknowledges the issue without making unauthorized promises or requesting sensitive details."
+M040-en,RC-FEE,1,1,The draft accurately acknowledges the exchange rate complaint without making any promises or violating policy.
+M043-en,RC-FEE,1,1,"The reason code correctly matches the fee complaint, and the draft accurately acknowledges the issue without promising outcomes or violating policy."
+M046-en,RC-FEE,1,1,The draft accurately acknowledges the exchange fee complaint without promising an outcome or asking for sensitive information.
+M048-en,RC-FEE,1,1,The draft accurately acknowledges the fee complaint without promising unverified outcomes or requesting sensitive information.
+M049-en,RC-DUP,1,1,The draft accurately reflects the duplicate charge complaint without promising an outcome or asking for sensitive information.
+M050-en,RC-NRV,1,1,The draft accurately reflects the non-delivery dispute facts and policy without promising outcomes or asking for secrets.
+M051-en,RC-RFD,1,1,The draft accurately reflects the customer's issue and facts without making unsupported promises or requesting sensitive details.
+M002-fr,RC-DLY,1,1,The draft accurately reflects the customer's complaint regarding card delivery delay without contradicting facts or promising specific outcomes.
+M005-fr,RC-SVC,1,1,The draft accurately acknowledges the complaint regarding contactless payment and app reports without making unauthorized promises or asking for sensitive information.
+M009-fr,RC-SVC,1,0,The reason code RC-SVC for service quality does not match the customer's primary issue regarding a card decline.
+M012-fr,RC-SVC,1,1,"The reason code fits the issue with the app/card payments, and the draft accurately acknowledges the complaint without making unauthorized promises."
+M015-fr,RC-PAY,1,1,"The reason code accurately matches the complaint, and the draft remains aligned with the provided facts without making unsupported promises."
+M017-fr,RC-PAY,1,1,The draft accurately reflects the failed transfer issue without making unauthorized promises or requesting sensitive details.
+M022-fr,RC-PAY,1,1,The draft accurately reflects the customer's delayed transfer complaint without promising outcomes or asking for sensitive information.
+M024-fr,RC-PAY,1,1,"The reason code matches the top-up cancellation issue and the draft contains no contradictions, invented facts, or promised outcomes."
+M026-fr,RC-PAY,1,1,The reason code accurately matches the transfer issue and the draft makes no unsupported promises or requests for sensitive information.
+M031-fr,RC-SVC,0,0,The cited reason code and clause relate to cash dispensing failures rather than a swallowed card.
+M032-fr,RC-SVC,0,1,"The reason code accurately reflects the ATM issue and the draft contains no contradictions, promises, or secret requests."
+M033-fr,RC-ATM,1,1,The draft correctly acknowledges the stuck ATM withdrawal without making unauthorized promises or requesting sensitive details.
+M038-fr,RC-FEE,1,1,The draft accurately acknowledges the fee complaint without promising any unverified refund or outcome.
+M040-fr,RC-FEE,1,1,The draft accurately acknowledges the exchange rate dispute without making unauthorized promises or requesting sensitive details.
+M043-fr,RC-FEE,1,1,"The reason code appropriately addresses the fee complaint, and the draft accurately acknowledges the issue without making unsupported promises or requesting secrets."
+M046-fr,RC-FEE,1,1,The reason code appropriately matches the customer's issue and the draft does not promise unconfirmed outcomes or contradict facts.
+M048-fr,RC-FEE,1,1,The draft properly acknowledges the fee complaint in accordance with the facts and policy without promising outcomes or asking for secrets.
+M049-fr,RC-DUP,1,1,The draft accurately reflects the duplicate charge dispute without making promises or asking for sensitive information.
+M050-fr,RC-NRV,1,1,The draft accurately acknowledges the non-delivery dispute without making promises or contradicting the facts and policy.
+M051-fr,RC-RFD,1,1,The draft accurately acknowledges the unreceived refund without making unauthorized promises or requesting sensitive data.

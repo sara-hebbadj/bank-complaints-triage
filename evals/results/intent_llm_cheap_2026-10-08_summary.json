@@ -1,0 +1,22 @@
+{
+  "run_id": "intent_llm_cheap_2026-10-08",
+  "date": "2026-10-08",
+  "task": "intent",
+  "system": "llm",
+  "dry_run": false,
+  "models": {
+    "cheap": "openai/gpt-6-luna",
+    "main": "anthropic/claude-sonnet-5.5",
+    "judge": "google/gemini-3.8-flash",
+    "embed": "baai/bge-m3"
+  },
+  "n": 770,
+  "errors": 0,
+  "cost_usd": 0.10022,
+  "model_calls": 770,
+  "stopped_by_budget": false,
+  "macro_f1_subset_770": 0.7528,
+  "accuracy_subset_770": "74.5% (574/770)",
+  "team_accuracy_subset_770": "88.2% (679/770)",
+  "predicted_other": 62
+}

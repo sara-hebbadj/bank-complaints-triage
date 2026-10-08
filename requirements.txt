@@ -1,0 +1,10 @@
+# For a Hugging Face Space (the app adds src/ to the path itself).
+# Local development: pip install -e ".[dev]" instead.
+langgraph>=1.0
+openai>=1.40
+python-dotenv>=1.0
+scikit-learn>=1.5
+numpy>=1.26
+duckdb>=1.1
+gradio>=5.0
+matplotlib>=3.8

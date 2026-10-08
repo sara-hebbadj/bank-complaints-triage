@@ -1,0 +1,27 @@
+# Secrets: never commit
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# Demo state written while the app runs (case queue, audit log, cached TF-IDF model)
+runtime/
+
+# Embedding cache (about 60 MB; rebuilt by `python -m evals.run intent --system embed`)
+evals/cache/
+
+# OS and editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

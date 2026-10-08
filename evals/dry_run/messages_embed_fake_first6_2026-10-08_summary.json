@@ -1,0 +1,127 @@
+{
+  "run_id": "messages_embed_fake_first6_2026-10-08",
+  "date": "2026-10-08",
+  "task": "messages",
+  "system": "embed",
+  "dry_run": true,
+  "models": "fake",
+  "n": 6,
+  "errors": 0,
+  "cost_usd": 0.0,
+  "model_calls": 0,
+  "stopped_by_budget": false,
+  "all": {
+    "n": 6,
+    "routing_accuracy": "16.7% (1/6)",
+    "routing_value": 0.16666666666666666,
+    "complaint": {
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "precision": "100.0% (3/3)",
+      "recall": "100.0% (3/3)",
+      "precision_value": 1.0,
+      "recall_value": 1.0
+    },
+    "dispute": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": "n/a (0)",
+      "recall": "n/a (0)",
+      "precision_value": null,
+      "recall_value": null
+    },
+    "fraud_recall": "n/a (0)",
+    "vulnerable_recall": "n/a (0)",
+    "sent_to_human_triage": 4
+  },
+  "ar": {
+    "n": 2,
+    "routing_accuracy": "0.0% (0/2)",
+    "routing_value": 0.0,
+    "complaint": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": "100.0% (1/1)",
+      "recall": "100.0% (1/1)",
+      "precision_value": 1.0,
+      "recall_value": 1.0
+    },
+    "dispute": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": "n/a (0)",
+      "recall": "n/a (0)",
+      "precision_value": null,
+      "recall_value": null
+    },
+    "fraud_recall": "n/a (0)",
+    "vulnerable_recall": "n/a (0)",
+    "sent_to_human_triage": 2
+  },
+  "en": {
+    "n": 2,
+    "routing_accuracy": "50.0% (1/2)",
+    "routing_value": 0.5,
+    "complaint": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": "100.0% (1/1)",
+      "recall": "100.0% (1/1)",
+      "precision_value": 1.0,
+      "recall_value": 1.0
+    },
+    "dispute": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": "n/a (0)",
+      "recall": "n/a (0)",
+      "precision_value": null,
+      "recall_value": null
+    },
+    "fraud_recall": "n/a (0)",
+    "vulnerable_recall": "n/a (0)",
+    "sent_to_human_triage": 1
+  },
+  "fr": {
+    "n": 2,
+    "routing_accuracy": "0.0% (0/2)",
+    "routing_value": 0.0,
+    "complaint": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": "100.0% (1/1)",
+      "recall": "100.0% (1/1)",
+      "precision_value": 1.0,
+      "recall_value": 1.0
+    },
+    "dispute": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": "n/a (0)",
+      "recall": "n/a (0)",
+      "precision_value": null,
+      "recall_value": null
+    },
+    "fraud_recall": "n/a (0)",
+    "vulnerable_recall": "n/a (0)",
+    "sent_to_human_triage": 1
+  },
+  "routing_gap_points": 50.0,
+  "by_variety": {
+    "msa": "0.0% (0/1)",
+    "gulf": "0.0% (0/1)"
+  },
+  "latency_ms_p50_p95": [
+    1.0,
+    2.5
+  ],
+  "avg_cost_usd_per_message": 0.0
+}
